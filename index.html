@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tm">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Landing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>Serdar's Blog</h1>
+    <div class="actions">
+      <button id="openModalBtn">About me</button>
+      <button id="themeToggle">🌙/☀️ Theme</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Последние сообщения!</h2>
+    <!-- Список компонентов генерируется здесь с помощью JS -->
+    <div id="posts"></div>
+  </main>
+
+  <footer class="container">
+    <small>© 2025 Serdar</small>
+  </footer>
+
+  <!-- Модальное окно -->
+  <div id="modal" class="modal">
+    <div class="modal__content">
+      <button id="closeModalBtn" class="modal__close">×</button>
+      <h3>About me</h3>
+      <p>Я студент - Какабаев Сердар, из группы 8121-22, изучающий веб-разработку.</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
